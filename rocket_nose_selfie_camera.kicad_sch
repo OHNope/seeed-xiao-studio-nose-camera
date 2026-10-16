@@ -2302,10 +2302,356 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+		(symbol "Interface_CAN_LIN:SN65HVD230"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "U"
+				(at -2.54 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Value" "SN65HVD230"
+				(at -2.54 7.62 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify right)
+				)
+			)
+			(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+				(at 0 -12.7 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/sn65hvd230.pdf"
+				(at -2.54 10.16 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "CAN Bus Transceivers, 3.3V, 1Mbps, Low-Power capabilities, SOIC-8"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "can transeiver ti low-power"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "SN65HVD230_0_1"
+				(rectangle
+					(start -7.62 5.08)
+					(end 7.62 -7.62)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "SN65HVD230_1_1"
+				(pin input line
+					(at -10.16 2.54 0)
+					(length 2.54)
+					(name "D"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "GND"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at 0 7.62 270)
+					(length 2.54)
+					(name "VCC"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -10.16 0 0)
+					(length 2.54)
+					(name "R"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at -10.16 -2.54 0)
+					(length 2.54)
+					(name "Vref"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 -2.54 180)
+					(length 2.54)
+					(name "CANL"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin bidirectional line
+					(at 10.16 0 180)
+					(length 2.54)
+					(name "CANH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -10.16 -5.08 0)
+					(length 2.54)
+					(name "Rs"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 	)
 	(rectangle
-		(start 190.5 52.578)
-		(end 272.542 100.838)
+		(start 190.5 52.07)
+		(end 273.05 100.33)
 		(stroke
 			(width 0)
 			(type default)
@@ -2394,7 +2740,7 @@
 		)
 		(uuid "53b6a515-90f2-4ed2-b809-57babbf2f189")
 	)
-	(text "BLOCK 3 — LOGGER CAN (MCP2562-E/SN)"
+	(text "BLOCK 3 — LOGGER CAN (SN65HVD230, 3.3V)"
 		(exclude_from_sim no)
 		(at 193.04 55.88 0)
 		(effects
@@ -2427,7 +2773,7 @@
 		)
 		(uuid "bc573c15-9cd5-4532-b100-3618bfe891ea")
 	)
-	(text "Power: J4 5V_IN -> D3 (B5819W) -> XIAO VBUS; 5V_IN also feeds U2 VDD directly."
+	(text "Power: J4 5V_IN -> D3 (B5819W) -> XIAO VBUS; U2 runs from XIAO +3.3V."
 		(exclude_from_sim no)
 		(at 58.928 154.686 0)
 		(effects
@@ -2607,26 +2953,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 74.93) (xy 205.74 74.93)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a4b2dac-e054-4e12-b4db-b0e2ef81a027")
-	)
-	(wire
-		(pts
-			(xy 196.85 77.47) (xy 205.74 77.47)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "3a72fae0-53b6-4280-b945-828f757f32e3")
-	)
-	(wire
-		(pts
 			(xy 205.74 132.08) (xy 209.55 132.08)
 		)
 		(stroke
@@ -2644,16 +2970,6 @@
 			(type default)
 		)
 		(uuid "498854ca-9612-4311-b936-d069976db686")
-	)
-	(wire
-		(pts
-			(xy 218.44 63.5) (xy 218.44 69.85)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5484e242-82b0-4885-9209-8d879a05cb3b")
 	)
 	(wire
 		(pts
@@ -2714,16 +3030,6 @@
 			(type default)
 		)
 		(uuid "996d8b47-880d-4cc7-82c8-c104a17168c0")
-	)
-	(wire
-		(pts
-			(xy 203.2 85.09) (xy 205.74 85.09)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a445cb83-04c2-4eea-b4c4-174958c68184")
 	)
 	(wire
 		(pts
@@ -2885,22 +3191,6 @@
 		)
 		(uuid "2a406e4c-41a6-4ed7-909b-a734ad806c33")
 	)
-	(wire
-		(pts
-			(xy 198.12 82.55) (xy 205.74 82.55)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8cdf421a-7e2c-4c94-ad64-6041f5fe24d0")
-	)
-	(junction
-		(at 198.12 82.55)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "20776ba3-512a-441b-a393-ca6749e5bb38")
-	)
 	(label "5V_IN"
 		(at 74.93 69.85 0)
 		(effects
@@ -2910,26 +3200,6 @@
 			(justify left bottom)
 		)
 		(uuid "e49e3bcb-c8b8-4fb2-8733-4873146a988d")
-	)
-	(label "5V_IN"
-		(at 214.63 63.5 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "2374267e-8209-40e7-98fa-1eafde1abe36")
-	)
-	(label "CANL"
-		(at 231.14 82.55 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "15dbdd0b-4964-427c-9321-fb12248991a7")
 	)
 	(label "CAN_RX"
 		(at 118.11 116.84 0)
@@ -2958,16 +3228,6 @@
 			)
 		)
 		(uuid "2e74bd33-5202-426a-86fb-5b2c990a5398")
-	)
-	(label "CAN_TX"
-		(at 196.85 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3debb8f6-fbd8-43cc-8c48-f7c5e592e2dc")
 	)
 	(label "CANH"
 		(at 252.73 74.93 0)
@@ -3025,26 +3285,6 @@
 			(justify left bottom)
 		)
 		(uuid "aed11347-c781-4711-902a-7045ec52d509")
-	)
-	(label "CAN_RX"
-		(at 196.85 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bf898d50-9d3a-44c4-8cee-f631c8aa8b68")
-	)
-	(label "CANH"
-		(at 231.14 77.47 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "cc535bfb-c06f-41fe-b345-a30ee2b74b90")
 	)
 	(label "TRIGGER_IN_EXT"
 		(at 59.69 110.49 0)
@@ -3569,6 +3809,13 @@
 					(unit 1)
 				)
 			)
+		)
+		(property "kicad_auto_layout_block_id" "block.u3"
+			(at 0.0 0.0 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
 		)
 	)
 	(symbol
@@ -4227,7 +4474,7 @@
 				)
 			)
 		)
-		(property "kicad_auto_layout_block_id" "power_indicator"
+		(property "kicad_auto_layout_block_id" "block.u3"
 			(at 213.36 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -4433,238 +4680,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:GND")
-		(at 203.2 85.09 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8c36a09a-74dd-4234-be80-673c828727e7")
-		(property "Reference" "#PWR08"
-			(at 203.2 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 203.2 90.17 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 203.2 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 203.2 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 203.2 85.09 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "821f75fc-55e4-4a39-8d66-b2881550ee04")
-		)
-		(instances
-			(project "rocket_nose_selfie_camera"
-				(path "/ab5a4269-e837-449a-8cac-58da4eec784a"
-					(reference "#PWR08")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Interface_CAN_LIN:MCP2562-E-SN")
-		(at 218.44 80.01 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "8f8edb2a-a5d0-4902-a977-69df0b0422c6")
-		(property "Reference" "U2"
-			(at 220.98 67.945 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "MCP2562-E/SN"
-			(at 220.98 70.485 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
-			(at 218.44 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "https://ww1.microchip.com/downloads/en/DeviceDoc/25167A.pdf"
-			(at 218.44 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "High-speed CAN transceiver, VDD 5V, VIO logic supply 1.8-5.5V, STBY"
-			(at 218.44 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purpose" "3V3 CAN transceiver to logger platform"
-			(at 218.44 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "kicad_auto_layout_block_id" "block.u2_can"
-			(at 218.44 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "kicad_auto_layout_order" "3"
-			(at 218.44 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "kicad_auto_layout_row" "1"
-			(at 218.44 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "MCP2562-E/SN"
-			(at 218.44 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ce38faf9-55bd-4395-a726-421b03ef8791")
-		)
-		(pin "2"
-			(uuid "f1782f49-7a21-49bc-96d4-fe0df84ac793")
-		)
-		(pin "3"
-			(uuid "f848436a-4f42-4c52-8889-edd2d25b0d6b")
-		)
-		(pin "4"
-			(uuid "bda1b468-eab1-41cd-adfb-3d42f0468741")
-		)
-		(pin "5"
-			(uuid "7d20c740-5a32-4466-a531-1207b9678228")
-		)
-		(pin "6"
-			(uuid "71dc6d41-c772-4071-b2a0-419606de052b")
-		)
-		(pin "7"
-			(uuid "24af2072-41fa-42b4-b1f7-8ffb86c98b25")
-		)
-		(pin "8"
-			(uuid "3f2a78dd-7079-43e9-be1a-6021844f2254")
-		)
-		(instances
-			(project "rocket_nose_selfie_camera"
-				(path "/ab5a4269-e837-449a-8cac-58da4eec784a"
-					(reference "U2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 109.22 101.6 0)
 		(unit 1)
@@ -4728,7 +4743,7 @@
 				)
 			)
 		)
-		(property "kicad_auto_layout_block_id" "status_output"
+		(property "kicad_auto_layout_block_id" "block.u3"
 			(at 109.22 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -4840,7 +4855,7 @@
 				)
 			)
 		)
-		(property "kicad_auto_layout_block_id" "status_output"
+		(property "kicad_auto_layout_block_id" "camera_harness"
 			(at 87.63 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -5313,84 +5328,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 198.12 82.55 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ae70314-120a-4c97-87b4-baa68f85b3cb")
-		(property "Reference" "#PWR025"
-			(at 198.12 86.36 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 198.12 78.994 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 214.63 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 214.63 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 214.63 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "017fc398-da7f-47d7-be87-235c68f521a4")
-		)
-		(instances
-			(project "rocket_nose_selfie_camera"
-				(path "/ab5a4269-e837-449a-8cac-58da4eec784a"
-					(reference "#PWR025")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 252.73 80.01 0)
 		(unit 1)
@@ -5463,84 +5400,6 @@
 			(project "rocket_nose_selfie_camera"
 				(path "/ab5a4269-e837-449a-8cac-58da4eec784a"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 198.12 90.17 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d9af2cb5-ec0c-488b-b0cf-72eb65ebbf0a")
-		(property "Reference" "#PWR024"
-			(at 198.12 96.52 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 198.12 94.234 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 252.73 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 252.73 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 252.73 80.01 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "55fc43fc-e66f-4448-8ecf-90899970984c")
-		)
-		(instances
-			(project "rocket_nose_selfie_camera"
-				(path "/ab5a4269-e837-449a-8cac-58da4eec784a"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -5750,131 +5609,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 198.12 86.36 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ca08d1c6-ad6b-4f97-b6f9-b69c0cbd25b1")
-		(property "Reference" "C2"
-			(at 196.85 85.09 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "100nF"
-			(at 196.85 87.63 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 223.52 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 223.52 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 223.52 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Purpose" "U2 local 3V3 decoupling"
-			(at 223.52 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "kicad_auto_layout_block_id" "block.u2_can"
-			(at 223.52 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "kicad_auto_layout_order" "3"
-			(at 223.52 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "kicad_auto_layout_row" "1"
-			(at 223.52 63.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "43b091de-3746-4487-9f24-d06ff805073b")
-		)
-		(pin "2"
-			(uuid "416006bf-7f8f-48c6-aeff-2cdf65111a0c")
-		)
-		(instances
-			(project "rocket_nose_selfie_camera"
-				(path "/ab5a4269-e837-449a-8cac-58da4eec784a"
-					(reference "C2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED")
 		(at 223.52 132.08 0)
 		(mirror y)
@@ -5939,7 +5673,7 @@
 				)
 			)
 		)
-		(property "kicad_auto_layout_block_id" "power_indicator"
+		(property "kicad_auto_layout_block_id" "block.u3"
 			(at 223.52 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -6257,7 +5991,7 @@
 				)
 			)
 		)
-		(property "kicad_auto_layout_block_id" "status_output"
+		(property "kicad_auto_layout_block_id" "block.u3"
 			(at 119.38 101.6 0)
 			(hide yes)
 			(show_name no)
@@ -6519,84 +6253,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:PWR_FLAG")
-		(at 214.63 63.5 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "29305d0b-ffa8-4443-830b-62bc351fb13c")
-		(property "Reference" "#FLG06"
-			(at 214.63 61.595 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "PWR_FLAG"
-			(at 214.63 58.42 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 172.72 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 172.72 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 172.72 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "36ef9cb4-17f3-473d-8da3-414c7fe391ba")
-		)
-		(instances
-			(project "rocket_nose_selfie_camera"
-				(path "/ab5a4269-e837-449a-8cac-58da4eec784a"
-					(reference "#FLG06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector_Generic:Conn_01x03")
 		(at 29.21 106.68 0)
 		(mirror y)
@@ -6773,6 +6429,635 @@
 			"86e2942b-2b7d-4d3d-9f41-f26177f9615e" "9b5e0281-f4ca-4bc9-b844-c28a4868b7bb"
 			"f96e6cb1-f434-46f7-a07d-24989bc4931f"
 		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 17.78 17.78 0.0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "dd0653b1-4aab-49a2-ad79-9c9bab3ed769")
+		(property "Reference" "H1"
+			(at 17.78 15.240000000000002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M2"
+			(at 17.78 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 17.78 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "Datasheet" ""
+			(at 17.78 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 17.78 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "kicad_auto_layout_block_id" ""
+			(at 17.78 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "kicad_auto_layout_order" "0"
+			(at 17.78 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "kicad_auto_layout_row" "9"
+			(at 17.78 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(instances
+			(project ""
+				(path "/ab5a4269-e837-449a-8cac-58da4eec784a/dd0653b1-4aab-49a2-ad79-9c9bab3ed769"
+					(reference "H1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 40.64 17.78 0.0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "77a35de0-e6b0-451d-85a5-06be7223030b")
+		(property "Reference" "H2"
+			(at 40.64 15.240000000000002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M2"
+			(at 40.64 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 40.64 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "Datasheet" ""
+			(at 40.64 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 40.64 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "kicad_auto_layout_block_id" ""
+			(at 40.64 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "kicad_auto_layout_order" "0"
+			(at 40.64 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "kicad_auto_layout_row" "9"
+			(at 40.64 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(instances
+			(project ""
+				(path "/ab5a4269-e837-449a-8cac-58da4eec784a/77a35de0-e6b0-451d-85a5-06be7223030b"
+					(reference "H2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 63.5 17.78 0.0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b8fb9484-9ac1-4f63-bcff-d3287fbd3c0d")
+		(property "Reference" "H3"
+			(at 63.5 15.240000000000002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M2"
+			(at 63.5 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 63.5 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "Datasheet" ""
+			(at 63.5 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 63.5 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "kicad_auto_layout_block_id" ""
+			(at 63.5 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "kicad_auto_layout_order" "0"
+			(at 63.5 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "kicad_auto_layout_row" "9"
+			(at 63.5 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(instances
+			(project ""
+				(path "/ab5a4269-e837-449a-8cac-58da4eec784a/b8fb9484-9ac1-4f63-bcff-d3287fbd3c0d"
+					(reference "H3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 86.36 17.78 0.0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "9f93624f-cbc8-46b6-a34a-b84e2b98debc")
+		(property "Reference" "H4"
+			(at 86.36 15.240000000000002 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "M2"
+			(at 86.36 20.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "MountingHole:MountingHole_2.2mm_M2"
+			(at 86.36 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "Datasheet" ""
+			(at 86.36 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 86.36 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "kicad_auto_layout_block_id" ""
+			(at 86.36 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "kicad_auto_layout_order" "0"
+			(at 86.36 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "kicad_auto_layout_row" "9"
+			(at 86.36 17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(instances
+			(project ""
+				(path "/ab5a4269-e837-449a-8cac-58da4eec784a/9f93624f-cbc8-46b6-a34a-b84e2b98debc"
+					(reference "H4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 218.44 63.5) (xy 218.44 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c17b0709-9788-49cb-8c62-adc904e5a898")
+	)
+	(symbol
+		(lib_id "Interface_CAN_LIN:SN65HVD230")
+		(at 218.44 80.01 0.0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "b626ab6f-a314-4734-b75e-79b70e1e5226")
+		(property "Reference" "U2"
+			(at 223.52 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SN65HVD230DR"
+			(at 229.87 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/sn65hvd230.pdf"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "Description" "CAN transceiver, 3.3V single supply, 1 Mbps, SOIC-8"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "MPN" "SN65HVD230DR"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "Purpose" "3V3 CAN transceiver to logger platform"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "kicad_auto_layout_block_id" "block.u2_can"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "kicad_auto_layout_order" "3"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "kicad_auto_layout_row" "1"
+			(at 218.44 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(pin "1"
+			(uuid "e92b60bf-2ad0-4fff-9d52-9839d33370e9")
+		)
+		(pin "2"
+			(uuid "aebbcfdc-aa96-4562-a8e8-cee017f21737")
+		)
+		(pin "3"
+			(uuid "9cab6c52-1de3-458c-9fbd-7368b9dda1d4")
+		)
+		(pin "4"
+			(uuid "4852b9f9-6490-4972-9366-fb1802d6bcb5")
+		)
+		(pin "5"
+			(uuid "07aa4b3f-7d56-4cdf-9fc6-8ec6a845766f")
+		)
+		(pin "6"
+			(uuid "0519a371-35b3-481e-be9e-2acc75bf76bd")
+		)
+		(pin "7"
+			(uuid "e62d670d-5153-4907-88a7-69d4511dd87a")
+		)
+		(pin "8"
+			(uuid "e7ad1e66-83cb-46dc-b927-2846f9aff21d")
+		)
+		(instances
+			(project ""
+				(path "/ab5a4269-e837-449a-8cac-58da4eec784a/b626ab6f-a314-4734-b75e-79b70e1e5226"
+					(reference "U2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3.3V")
+		(at 214.63 63.5 0.0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "4d7da8b5-45a7-4e2f-b9cf-c7632cdd24bf")
+		(property "Reference" "#PWR007"
+			(at 214.63 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "Value" "+3.3V"
+			(at 214.63 60.96 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.63 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "Datasheet" ""
+			(at 214.63 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
+			(at 214.63 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(pin "1"
+			(uuid "2ee09b0f-5e29-423b-ad7a-2fdc45a6f109")
+		)
+		(instances
+			(project ""
+				(path "/ab5a4269-e837-449a-8cac-58da4eec784a/4d7da8b5-45a7-4e2f-b9cf-c7632cdd24bf"
+					(reference "#PWR007")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(no_connect
+		(at 208.28 82.55)
+		(uuid "a9c776c4-b33a-4806-9f5c-caadcf54879f")
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 208.28 85.09 0.0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "56cba0ca-3693-41f2-89b7-2f194a0663fe")
+		(property "Reference" "#PWR008"
+			(at 208.28 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "Value" "GND"
+			(at 208.28 87.63000000000001 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 208.28 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "Datasheet" ""
+			(at 208.28 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 208.28 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				) hide)
+		)
+		(pin "1"
+			(uuid "aefa81be-e6f2-428d-952d-9d4c25530149")
+		)
+		(instances
+			(project ""
+				(path "/ab5a4269-e837-449a-8cac-58da4eec784a/56cba0ca-3693-41f2-89b7-2f194a0663fe"
+					(reference "#PWR008")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(wire
+		(pts
+			(xy 200.66 77.47) (xy 208.28 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f02dddc9-7157-4055-ad4e-49455776f0be")
+	)
+	(wire
+		(pts
+			(xy 200.66 80.01) (xy 208.28 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "31480659-b20f-4511-9821-00320100a097")
+	)
+	(wire
+		(pts
+			(xy 228.6 80.01) (xy 231.14 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "65f19f4b-9965-4a34-a613-a420f93e8af7")
+	)
+	(wire
+		(pts
+			(xy 228.6 82.55) (xy 231.14 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "47c36263-f4ff-4a8e-93b1-0ec3f10af381")
+	)
+	(label "CAN_TX"
+		(at 200.66 77.47 180.0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "55e69bf1-d07f-498d-b076-2806fea38fcc")
+	)
+	(label "CAN_RX"
+		(at 200.66 80.01 180.0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2d980a8d-8878-4a54-9037-e4db31a6229d")
+	)
+	(label "CANH"
+		(at 231.14 80.01 0.0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "2f419947-cff2-44dd-bc40-bcbc59e744e4")
+	)
+	(label "CANL"
+		(at 231.14 82.55 0.0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "792ef832-72a3-4575-af94-819994ae1cef")
 	)
 	(sheet_instances
 		(path "/"
