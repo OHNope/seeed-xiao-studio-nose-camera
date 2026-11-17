@@ -1,0 +1,41 @@
+{
+  "format": "pcb-fabrication-profile",
+  "format_version": 1,
+  "schema_id": "urn:kicad-auto:pcb-fabrication-profile:v1",
+  "manufacturer": "JLCPCB",
+  "source_url": "https://jlcpcb.com/capabilities/pcb-capabilities",
+  "decided_by": "user 2026-10-15: 嘉立创 2层 1.6mm 1oz",
+  "order_form": {
+    "layer_count": 2,
+    "finished_thickness_mm": 1.6,
+    "surface_finish": "HAL lead-free",
+    "impedance_control": {"enabled": false}
+  },
+  "stackup": {
+    "nominal_thickness_mm": 1.6,
+    "layers": [
+      {"name": "F.SilkS", "kind": "silkscreen", "material": "Liquid Photo"},
+      {"name": "F.Mask", "kind": "soldermask", "material": "LPI", "thickness_mm": 0.01, "epsilon_r": 3.8},
+      {"name": "F.Cu", "kind": "copper", "material": "copper", "thickness_mm": 0.035},
+      {"name": "dielectric 1", "kind": "core", "material": "FR4", "thickness_mm": 1.51, "epsilon_r": 4.5, "loss_tangent": 0.02},
+      {"name": "B.Cu", "kind": "copper", "material": "copper", "thickness_mm": 0.035},
+      {"name": "B.Mask", "kind": "soldermask", "material": "LPI", "thickness_mm": 0.01, "epsilon_r": 3.8},
+      {"name": "B.SilkS", "kind": "silkscreen", "material": "Liquid Photo"}
+    ]
+  },
+  "kicad_project_settings": {
+    "drc_manufacturing_floor": {
+      "min_track_width_mm": 0.127,
+      "min_clearance_mm": 0.127,
+      "min_copper_edge_clearance_mm": 0.3,
+      "min_via_diameter_mm": 0.5,
+      "min_via_annular_width_mm": 0.1,
+      "min_hole_clearance_mm": 0.25,
+      "min_hole_to_hole_mm": 0.25,
+      "min_through_hole_diameter_mm": 0.3,
+      "min_text_height_mm": 1.0,
+      "min_text_thickness_mm": 0.15
+    },
+    "via_tiers": {"standard": {"diameter_mm": 0.6, "drill_mm": 0.3}, "fine": null}
+  }
+}
