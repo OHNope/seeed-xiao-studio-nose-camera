@@ -17,4 +17,4 @@
 | R5 | 1 | Resistor, 0603 | 120 Ω | CAN bus termination (SELFY is a bus endpoint) — fitted |
 | D1 | 1 | Indicator LED, 0603 | PWR_3V3 | Green or other bring-up indicator colour |
 | D2 | 1 | Indicator LED, 0603 | STATUS | Green/yellow or other bring-up indicator colour |
-| H1–H4 | 4 | Mounting hole, 3 mm | MountingHole_3mm | Corners, 60 mm pitch |
+| H1–H4 | 4 | Mounting hole, 4 mm | MountingHole_4mm | Corners, 64 mm pitch |

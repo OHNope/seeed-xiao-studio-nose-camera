@@ -3,7 +3,7 @@
   "decided_by": "user_specified",
   "height_mm": 72.0,
   "mode": "fixed",
-  "note": "C-109J SELFY: 72 x 72 mm square, 1 mm corner radius (same as stamp-p4-demo-rec11); H1-H4 3 mm holes 6 mm from each edge (60 mm pitch); J4 VH power on the left edge, J3 XH CAN on the top edge; 2 layers, GND pour both sides",
+  "note": "C-109J SELFY: 72 x 72 mm square, 1 mm corner radius (same as stamp-p4-demo-rec11); H1-H4 4 mm holes 4 mm from each edge (64 mm pitch, C-109J); J4 VH power on the left edge, J3 XH CAN on the top edge; 2 layers, GND pour both sides",
   "recorded_at": "2026-11-17T00:42:46+00:00",
   "schema_version": "pcb_board_outline_intent.v1",
   "tolerance_mm": 0.1,

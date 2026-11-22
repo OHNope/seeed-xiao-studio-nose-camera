@@ -26,7 +26,7 @@ J1 is a 3-pin 2.54 mm debug header (`TRIGGER_IN_EXT`, GND, `STATUS_OUT`). It is 
 ## Mechanical
 
 - 72 × 72 mm square board.
-- Four 3 mm mounting holes H1–H4 in the corners, hole centres 6 mm from each edge (60 mm pitch).
+- Four 4 mm mounting holes H1–H4 in the corners, hole centres 4 mm from each edge (64 mm pitch, C-109J).
 - J4 (power) on the left edge, J3 (CAN) on the top edge, both side-entry with the opening at the board edge; U2 next to J3.
 
 ## Design notes

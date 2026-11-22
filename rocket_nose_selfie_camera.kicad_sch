@@ -6831,7 +6831,7 @@
 				)
 			)
 		)
-		(property "Value" "3mm"
+		(property "Value" "4mm"
 			(at 17.78 20.32 0)
 			(effects
 				(font
@@ -6839,7 +6839,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm"
+		(property "Footprint" "MountingHole:MountingHole_4mm"
 			(at 17.78 17.78 0)
 			(effects
 				(font
@@ -6887,7 +6887,7 @@
 				)
 			)
 		)
-		(property "Value" "3mm"
+		(property "Value" "4mm"
 			(at 40.64 20.32 0)
 			(effects
 				(font
@@ -6895,7 +6895,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm"
+		(property "Footprint" "MountingHole:MountingHole_4mm"
 			(at 40.64 17.78 0)
 			(effects
 				(font
@@ -6943,7 +6943,7 @@
 				)
 			)
 		)
-		(property "Value" "3mm"
+		(property "Value" "4mm"
 			(at 63.5 20.32 0)
 			(effects
 				(font
@@ -6951,7 +6951,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm"
+		(property "Footprint" "MountingHole:MountingHole_4mm"
 			(at 63.5 17.78 0)
 			(effects
 				(font
@@ -6999,7 +6999,7 @@
 				)
 			)
 		)
-		(property "Value" "3mm"
+		(property "Value" "4mm"
 			(at 86.36 20.32 0)
 			(effects
 				(font
@@ -7007,7 +7007,7 @@
 				)
 			)
 		)
-		(property "Footprint" "MountingHole:MountingHole_3mm"
+		(property "Footprint" "MountingHole:MountingHole_4mm"
 			(at 86.36 17.78 0)
 			(effects
 				(font
